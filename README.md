@@ -35,6 +35,9 @@ Device details and some adaptation examples are available below.
 
 ** IMU-Mouse
 
+CÓDIGO FUENTE EN: XXXXXXXXX
+CÓDIGO FUENTE del Bluetooth en: XXXXXXX
+
 En las figuras 1 y 2  se ilustran las acciones de interacción que se implementaron en el dispositivo: desplazamiento del cursor y clic. Para la acción de desplazamiento se desea que el usuario relacione de manera intuitiva los movimientos de la cabeza con los movimientos del cursor (Fig. 1). El desplazamiento horizontal se obtiene a través del desplazamiento angular sobre el eje transversal de la cabeza. El movimiento vertical del cursor a partir del desplazamiento angular de la cabeza sobre su eje longitudinal. Para la acción de clic se seleccionó un movimiento que consiste en generar un cambio marcado de aceleración asintiendo con la cabeza (Fig. 2).
 
 Figure 1
@@ -57,6 +60,17 @@ Figure 4
 
 ![imumouse_implementacion](https://user-images.githubusercontent.com/116608938/231600456-c530d5b1-6c58-4558-b901-6ee37cef1846.png)
 
+La versión inalámbrica del IMU-Mouse es presentada en la figura 5. En esta versión son adicionados el Bluetooth RN-42 –embebido en la placa SparkFun Bluetooth Mate Silver– y una batería Lipo con salida de 3.7V y capacidad de 1100 mAh.
+
+Figure 5
+
+![Imu_mouse_ini](https://user-images.githubusercontent.com/116608938/231603412-df2153b6-3046-49c4-bc24-03e9fcce8abe.png)
+
+La versión final del IMU-Mouse es presentada en la figura 6. En este caso la IMU GY-85 es sustituida por la SparkFun Breakout IMU MPU-9250. La tarjeta de desarrollo electrónica Arduino Pro Micro se sustituyó por la Teensy 3.2. El prototipo se montó sobre la diadema del dispositivo NeuroSky MindWave Mobile 2 la cual es más liviana y tiene un mejor ajuste.
+
+Figure 6
+
+![imu_mouse_pro2](https://user-images.githubusercontent.com/116608938/231605984-8642cc7b-680e-4f9d-adfd-8718ceee878d.png)
 
 
 
