@@ -33,7 +33,9 @@ email: avargase@unal.edu.co
 Device details and some adaptation examples are available below.
 
  .
+ 
  .
+ 
  .
  
 *** IMU-Mouse ***
