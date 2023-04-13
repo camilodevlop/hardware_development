@@ -1,7 +1,9 @@
 # hardware_development
 
 Adaptation of interaction devices for people with physical disabilities in the upper limbs
+
 Universidad Nacional de Colombia
+
 Jan 2016 - Dec 2019
 
 Three types of devices were developed to validate the adaptation model proposed in my doctoral thesis. The first one was called IMU-Mouse and its operation was based on head movements. The second type of device was a Joystick. Both prototypes could be programmed to perform the interaction actions of a pointing device. The last type was the keyboard. Particularly, two keyboards were developed -one with six keys and one with 18 keys-. The Keys could be programmed to perform any interaction action. The versatility of the previous prototypes to change both the form and the functionalities was used to adapt devices according to the interaction needs of the users.  All the adaptation processes were assisted by a group of engineers.
