@@ -14,7 +14,7 @@ Tools: Arduino IDE 1.8.1 and Teensyduino 1.49.
 
 **
 
-Engineering team:
+Engineering team: most of their responsibilities were aimed at building the structure of the devices using Computer Aided Design (CAD), printed circuit board design, 3D printing, and some programming tasks.
 
 David Buriticá Ortegon
 email: dburiticao@unal.edu.co
@@ -194,10 +194,22 @@ Figure 24
 
 ![fit2_17](https://user-images.githubusercontent.com/116608938/231891217-b498d5ff-0175-474d-80b6-67be07747bc6.png)
 
+Example 3: combinación del IMU-Mouse y el teclado de 6 botones (Fig. 25). Esta combinación atiende las  necesidades de interacción de una mano metacarpiana con trasplante de dedos del pie. Por medio del IMU-Mouse se mueve el puntero en la pantalla. Por medio del teclado se ejecutan las acciones restantes de un dispositivo apuntador.
 
-Example 3: combinación del IMU-Mouse y el teclado de 6 botones (Fig. XXXX). Esta combinación atiende las  necesidades de interacción de una mano metacarpiana con trasplante de dedos del pie. Por medio del IMU-Mouse se mueve el puntero en la pantalla. Por medio del teclado se ejecutan las acciones restantes de un dispositivo apuntador.
+Figure 25
 
-Figure 
+![part1_it1](https://user-images.githubusercontent.com/116608938/231892701-bbaaf89c-193f-4222-83c5-fc785f7a7307.png)
 
+Example 4: combinación del joystick y el teclado de 6 botones. Esta combinación atiende las  necesidades de interacción de un usuario con parálisis parcial en las extremidades superiores. El usuario utiliza férulas porque no puede mover las manos. Por medio del joystick se mueve el puntero en la pantalla. Se construye un soporte para el brazo en el cual se incluye el joystick (Figs. 26 and 27). También se adapta una nueva palanca al joystick para facilitar la interacción (Fig. 28). Por medio del teclado se ejecutan el click, left click, scroll up, scroll down and Ctrl+Alt+Supr.
 
-This repository contains the code of different electronic interaction devices. In some cases the photographic record is included. The devices were developed for people with physical disabilities in the upper extremities. For the development, the Arduino micro, the Teensy 3.2, the Bluetooth HCI RN-42, an inertial measurement unit, a joystick, and a set of electrodes were used. Computer-Aided Design (CAD) and 3D printing were also used for the construction of the devices.
+Figure 26
+
+![part2_joystick_sop3](https://user-images.githubusercontent.com/116608938/231895327-42241166-cd0a-446c-b678-1c0757acc3d1.png)
+
+Figure 27
+
+![part2_joystick_sop4](https://user-images.githubusercontent.com/116608938/231895377-c35c6d54-7c2f-41cd-96b8-769ded1f43a8.png)
+
+Figure 28
+
+![part2_joystick_sop2](https://user-images.githubusercontent.com/116608938/231895560-dea21801-285b-4aac-8b6c-f33e072faf04.png)
