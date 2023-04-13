@@ -40,8 +40,7 @@ Device details and some adaptation examples are available below.
  
 *** IMU-Mouse ***
 
-CÓDIGO FUENTE EN: XXXXXXXXX
-CÓDIGO FUENTE del Bluetooth en: XXXXXXX
+The source code is available in the Head_Mouse and Bluetooth_RN42_Setup directories.
 
 En las figuras 1 y 2  se ilustran las acciones de interacción que se implementaron en el dispositivo: desplazamiento del cursor y clic. Para la acción de desplazamiento se desea que el usuario relacione de manera intuitiva los movimientos de la cabeza con los movimientos del cursor (Fig. 1). El desplazamiento horizontal se obtiene a través del desplazamiento angular sobre el eje transversal de la cabeza. El movimiento vertical del cursor a partir del desplazamiento angular de la cabeza sobre su eje longitudinal. Para la acción de clic se seleccionó un movimiento que consiste en generar un cambio marcado de aceleración asintiendo con la cabeza (Fig. 2).
 
