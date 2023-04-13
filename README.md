@@ -10,7 +10,7 @@ Three types of devices were developed to validate the adaptation model proposed 
 
 Tech stack: C++ -the language of the Arduino IDE is based on it-, Teensy 3.2 and Arduino Micro development boards, Bluetooth HCI RN-42, IMU MPU-9250 and Joystick Gravity V2.
 
-Tools: Arduino IDE 1.8.5 and Teensyduino 1.58.
+Tools: Arduino IDE 1.8.1 and Teensyduino 1.49.
 
 **
 
@@ -75,7 +75,6 @@ Figure 6
 
 ![imu_mouse_pro2](https://user-images.githubusercontent.com/116608938/231605984-8642cc7b-680e-4f9d-adfd-8718ceee878d.png)
 
-
  .
  
  .
@@ -139,6 +138,24 @@ Figure 15
 Figure 16
 
 ![botones_matriz](https://user-images.githubusercontent.com/116608938/231627059-dba55b8f-4f90-42dc-959e-deaf91ea5665.png)
+
+ .
+ 
+ .
+ 
+*** Joystick ***
+
+CÓDIGO FUENTE EN: XXXXXXXXX
+CÓDIGO FUENTE del Bluetooth en: XXXXXXX
+
+Este dispositivo se puede configurar para ejecutar las funciones de un dispositivo apuntador (función de desplazamiento del puntero, clic, doble clic, o scroll). Una de las propiedades de este aparato consiste en que la forma de la palanca de mando puede variar según las características del usuario. Esta propiedad es relevante porque con ella se podrían atender las necesidades de personas con dificultades en las estructuras o funciones de los dedos, o en los músculos (debido a la fuerza, al tono, o la resistencia).
+
+El módulo seleccionado es el joystick Gravity V2. Este módulo tiene tres ejes -X, Y, y Z.  El eje Z incluye un botón digital que se activa si la palanca se presiona desde arriba. El joystick se conecta a la Teensy 3.2 que envía las acciones de interacción mediante el módulo Bluetooth RN-45 (Fig. 17).
+
+Figure 17
+
+![esquema_joystick](https://user-images.githubusercontent.com/116608938/231632577-e62dce79-23a8-4ed7-9ada-3eb6f2f12d63.png)
+
 
 
 
