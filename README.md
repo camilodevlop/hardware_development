@@ -105,9 +105,40 @@ Figure 9
 
 ![castellated_teclado](https://user-images.githubusercontent.com/116608938/231617340-18d414c1-6aa1-4d10-8234-5daabf2c512d.png)
 
+El contacto directo de la PCB con el Velostat se evita por medio de un separador adhesivo (Fig. 10). Para la fabricación de las bases de los teclados se utilizó una máquina CNC para cortar el acrílico (Fig. 11). El botón se eligió mediante pruebas de ensayo y error a partir de un conjunto de 7 botones que varían en diseño y rigidez (Fig. 12).
+
+Figure 10. Partes del teclado: 1. Tuercas, 2. Sujetadores, 3. Botones, 4. Separador adhesivo, 5. PCB auxiliar, 6. PCB, 7. Soporte, 8. Tornillos.
+
+![explosion](https://user-images.githubusercontent.com/116608938/231619691-afb4bac8-a3d0-4fdd-99ea-f1b5ee2bb563.png)
+
+Figure 11
+
+![fab_baseteclados](https://user-images.githubusercontent.com/116608938/231619713-b6e4c24c-8e63-475f-8c5d-28ba67829e20.png)
+
+Figure 12
+
+![siete_botones](https://user-images.githubusercontent.com/116608938/231619726-962b9a68-2c8a-4a3b-8ce2-df8523c0d943.png)
+
+El pulsador de la figura 13 se seleccionó porque tanto la superficie plana como la forma de la base reducen la fuerza que se requiere para teclear. Al mismo tiempo, el diseño previene la activación accidental que causa la sensibilidad de los sensores. El tamaño del botón es adecuado para que se pueda operar con la mano, el pie o muñón. La fabricación se hizo con una impresora 3D y el material que se utilizó fue el poliuretano termoplástico (TPU, por su sigla en inglés).
+
+Figure 13
+
+![boton_selecionado](https://user-images.githubusercontent.com/116608938/231620648-2a489d21-1a7e-49a8-8b8a-a3e284bf34ff.png)
+
+Una PCB adicional se desarrolló para integrar el teclado, la tarjeta de desarrollo Arduino Micro, el módulo SparkFun Bluetooth Mate Silver RN-42, y una batería de tipo Lipo (Fig. 14). Las partes del teclado se ensamblan y se conectan a esta PCB mediante un cable jumper flexible plano de 30 pines FFC/FPC (Fig. 15). La matriz de muestreo de las PCB que se combinan con el Velostat tienen un tamaño de 2x3. Una membrana de TPU une 6 botones de tal manera que coinciden con la disposición de cada matriz de muestreo (Fig. 16). La estructura ``Castelleted'' permite conectar en fila 3 PCB para formar el teclado de 18 botones. Finalmente se programan rutinas para asignar funciones a cada una de las teclas.
+
+Figure 14
+
+![PCB_teclado21](https://user-images.githubusercontent.com/116608938/231626563-3a1c3a35-f40a-461c-b035-f7fb07aad340.png)
+
+Figure 15
 
 
+![ensamblaje_teclado](https://user-images.githubusercontent.com/116608938/231627031-4a07b2fd-a28d-448b-808d-9beb59eff489.png)
 
+Figure 16
+
+![botones_matriz](https://user-images.githubusercontent.com/116608938/231627059-dba55b8f-4f90-42dc-959e-deaf91ea5665.png)
 
 
 
