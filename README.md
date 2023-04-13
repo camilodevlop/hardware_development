@@ -76,6 +76,37 @@ Figure 6
 ![imu_mouse_pro2](https://user-images.githubusercontent.com/116608938/231605984-8642cc7b-680e-4f9d-adfd-8718ceee878d.png)
 
 
+ .
+ 
+ .
+ 
+*** Keyboard ***
+
+CÓDIGO FUENTE EN: XXXXXXXXX
+CÓDIGO FUENTE del Bluetooth en: XXXXXXX
+
+El teclado debe facilitar su operación a las personas con dificultades en las articulaciones o en los huesos. Esta facilidad se debe extender a las singularidades de los músculos que varían en fuerza, tono, o resistencia. El dispositivo también debe atender las necesidades a nivel de las estructuras corporales, por ejemplo, la ausencia total de extremidades superiores. La asistencia del aparato debe prestarse en al interacción con las aplicaciones de software que el usuario requiera. Además, el teclado debe adecuarse a las características físicas del entorno en donde se usa el computador.
+
+Para atender los requerimientos expuestos en el párrafo anterior se utilizaron las ventajas tecnológicas disponibles. La estrategia que se emplea para activar las teclas requiere de poco esfuerzo físico. El tamaño y la forma de las teclas se puede variar así como el material de su construcción. El tamaño del teclado se puede personalizar para adecuarse a cualquier espacio de trabajo y se conecta al computador vía Bluetooth. La robustez física y la comunicación inalámbrica permiten que el dispositivo se opere con los pies. Las teclas son programables con cualquier función que realice un teclado incluidos los comandos abreviados del sistema Windows (p. ej., \textit{CTRL + C} que ejecuta la acción de copiar).
+
+Para el caso en los que se requiere registrar la fuerza por la presión plantar, los transductores capacitivos y resistivos son los dos tipos de uso frecuente para llevar a cabo estas  medidas. El transductor que se utiliza en el teclado es una hoja conductiva sensible a la fuerza llamada Velostat que varía su resistencia. El Velostat es un resistor sensible a la fuerza (FSR) cuyo valor de resistencia disminuye cuando se aplica una presión sobre él. El diseño del teclado consiste en un arreglo de dos capas; una capa conductora que se implementa como un circuito impreso rígido (PCB rígida) y la capa del FSR (Velostat). El arreglo PCB-Velostat facilita la interacción a las personas con discapacidad porque no se requiere de un esfuerzo elevado para activar las teclas. En las figuras 7 y 8 se presentan respectivamente el diseño y la implementación de la PCB rígida que contiene una matriz de muestreo de tipo Shunt.
+
+Figure 7
+
+![PCB1_teclado](https://user-images.githubusercontent.com/116608938/231616049-05ebc34a-cd44-4bcb-8897-7bc7a3f204de.png)
+
+Figure 8
+
+![PCB_teclado](https://user-images.githubusercontent.com/116608938/231616264-3ed3fc03-dffc-4b18-931e-946c5730b6c9.png)
+
+Con el objetivo de variar el tamaño del teclado, el contorno de las PCB se perfora con una terminación que se denomina ``Castellated''. Esta estrategia permite conectar en fila o columna varias PCB con el fin de agregar nuevas teclas (Fig. 9).
+
+Figure 9
+
+![castellated_teclado](https://user-images.githubusercontent.com/116608938/231617340-18d414c1-6aa1-4d10-8234-5daabf2c512d.png)
+
+
+
 
 
 
