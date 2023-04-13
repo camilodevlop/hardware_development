@@ -156,7 +156,25 @@ Figure 17
 
 ![esquema_joystick](https://user-images.githubusercontent.com/116608938/231632577-e62dce79-23a8-4ed7-9ada-3eb6f2f12d63.png)
 
+ .
+ 
+ .
+ 
+*** Ejemplos de soluciones de interacción construidos a partir de los prototipos mencionados anteriormente ***
 
+Example 1: combinación del joystick y el teclado de 6 botones (Figs. 18 and 19). Esta combinación atiende las  necesidades de interacción de una mano metacarpiana con trasplante de dedos del pie. Por medio del joystick se mueve el puntero en la pantalla. Por medio del teclado se ejecutan el click, left click, scroll up, scroll down and Ctrl+Alt+Supr.
+
+Figure 18
+
+![it2_teclado](https://user-images.githubusercontent.com/116608938/231831944-6e1afa19-af80-434c-b2ae-6f37d542ea7b.png)
+
+Figure 19
+
+![part1_it2](https://user-images.githubusercontent.com/116608938/231831990-e2647e88-026d-4ea1-b3f9-f46dd8d25a95.png)
+
+Example 2: combinación del IMU-Mouse y el teclado de 6 botones (Fig. 20). Esta combinación atiende las  necesidades de interacción de una mano metacarpiana con trasplante de dedos del pie. Por medio del IMU-Mouse se mueve el puntero en la pantalla. Por medio del teclado se ejecutan las acciones restantes de un dispositivo apuntador.
+
+Fig. 
 
 
 This repository contains the code of different electronic interaction devices. In some cases the photographic record is included. The devices were developed for people with physical disabilities in the upper extremities. For the development, the Arduino micro, the Teensy 3.2, the Bluetooth HCI RN-42, an inertial measurement unit, a joystick, and a set of electrodes were used. Computer-Aided Design (CAD) and 3D printing were also used for the construction of the devices.
