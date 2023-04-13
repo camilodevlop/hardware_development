@@ -172,9 +172,32 @@ Figure 19
 
 ![part1_it2](https://user-images.githubusercontent.com/116608938/231831990-e2647e88-026d-4ea1-b3f9-f46dd8d25a95.png)
 
-Example 2: combinación del IMU-Mouse y el teclado de 6 botones (Fig. 20). Esta combinación atiende las  necesidades de interacción de una mano metacarpiana con trasplante de dedos del pie. Por medio del IMU-Mouse se mueve el puntero en la pantalla. Por medio del teclado se ejecutan las acciones restantes de un dispositivo apuntador.
+Example 2: adaptación de un dispositivo apuntador usando el joystick (Figs. 20-24). Este dispositivo atiende las  necesidades de interacción de una mano metacarpiana con trasplante de dedos del pie.
 
-Fig. 
+Figure 20
+
+![IMG_20200129_115946](https://user-images.githubusercontent.com/116608938/231889770-e200fcde-3b26-4596-9c2c-7a21178792b6.jpg)
+
+Figure 21
+
+![fit2_7](https://user-images.githubusercontent.com/116608938/231890106-7df38d9b-5516-4a16-82b1-208f1b730250.png)
+
+Figure 22
+
+![Joystick_based_pointing](https://user-images.githubusercontent.com/116608938/231890928-682383dc-bf2e-4d6c-bc4e-a6f864036ecc.png)
+
+Figure 23
+
+![IMG_222](https://user-images.githubusercontent.com/116608938/231891081-810ab185-00e1-4a64-a41d-e8cb1557e7c1.jpg)
+
+Figure 24
+
+![fit2_17](https://user-images.githubusercontent.com/116608938/231891217-b498d5ff-0175-474d-80b6-67be07747bc6.png)
+
+
+Example 3: combinación del IMU-Mouse y el teclado de 6 botones (Fig. XXXX). Esta combinación atiende las  necesidades de interacción de una mano metacarpiana con trasplante de dedos del pie. Por medio del IMU-Mouse se mueve el puntero en la pantalla. Por medio del teclado se ejecutan las acciones restantes de un dispositivo apuntador.
+
+Figure 
 
 
 This repository contains the code of different electronic interaction devices. In some cases the photographic record is included. The devices were developed for people with physical disabilities in the upper extremities. For the development, the Arduino micro, the Teensy 3.2, the Bluetooth HCI RN-42, an inertial measurement unit, a joystick, and a set of electrodes were used. Computer-Aided Design (CAD) and 3D printing were also used for the construction of the devices.
