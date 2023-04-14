@@ -98,15 +98,15 @@ Figure 8
 
 ![PCB_teclado](https://user-images.githubusercontent.com/116608938/231616264-3ed3fc03-dffc-4b18-931e-946c5730b6c9.png)
 
-Con el objetivo de variar el tamaño del teclado, el contorno de las PCB se perfora con una terminación que se denomina ``Castellated''. Esta estrategia permite conectar en fila o columna varias PCB con el fin de agregar nuevas teclas (Fig. 9).
+In order to vary the size of the keyboard, the outline of the PCBs is perforated with a finish called ``Castellated''. This strategy allows connecting several PCBs in a row or column in order to add new keys (Fig. 9).
 
 Figure 9
 
 ![castellated_teclado](https://user-images.githubusercontent.com/116608938/231617340-18d414c1-6aa1-4d10-8234-5daabf2c512d.png)
 
-El contacto directo de la PCB con el Velostat se evita por medio de un separador adhesivo (Fig. 10). Para la fabricación de las bases de los teclados se utilizó una máquina CNC para cortar el acrílico (Fig. 11). El botón se eligió mediante pruebas de ensayo y error a partir de un conjunto de 7 botones que varían en diseño y rigidez (Fig. 12).
+Direct contact of the PCB with the Velostat is prevented by means of an adhesive spacer (Fig. 10). For the manufacture of the keyboard bases, a CNC machine was used to cut the acrylic (Fig. 11). The button was chosen by trial and error from a set of 7 buttons that vary in design and stiffness (Fig. 12).
 
-Figure 10. Partes del teclado: 1. Tuercas, 2. Sujetadores, 3. Botones, 4. Separador adhesivo, 5. PCB auxiliar, 6. PCB, 7. Soporte, 8. Tornillos.
+Figure 10. Keyboard parts: 1. Nuts, 2. Fasteners, 3. Buttons, 4. Adhesive spacer, 5. Auxiliary PCB, 6. PCB, 7. Base, 8. Screws.
 
 ![explosion](https://user-images.githubusercontent.com/116608938/231619691-afb4bac8-a3d0-4fdd-99ea-f1b5ee2bb563.png)
 
@@ -118,13 +118,13 @@ Figure 12
 
 ![siete_botones](https://user-images.githubusercontent.com/116608938/231619726-962b9a68-2c8a-4a3b-8ce2-df8523c0d943.png)
 
-El pulsador de la figura 13 se seleccionó porque tanto la superficie plana como la forma de la base reducen la fuerza que se requiere para teclear. Al mismo tiempo, el diseño previene la activación accidental que causa la sensibilidad de los sensores. El tamaño del botón es adecuado para que se pueda operar con la mano, el pie o muñón. La fabricación se hizo con una impresora 3D y el material que se utilizó fue el poliuretano termoplástico (TPU, por su sigla en inglés).
+The switch in figure 13 was selected because both the flat surface and the shape of the base reduce the force required to type. At the same time, the design prevents accidental activation that causes sensitivity of the sensors. The button size is suitable for hand, foot or stump operation. The manufacturing was done with a 3D printer, and the material used was Thermoplastic Polyurethane (TPU).
 
 Figure 13
 
 ![boton_selecionado](https://user-images.githubusercontent.com/116608938/231620648-2a489d21-1a7e-49a8-8b8a-a3e284bf34ff.png)
 
-Una PCB adicional se desarrolló para integrar el teclado, la tarjeta de desarrollo Arduino Micro, el módulo SparkFun Bluetooth Mate Silver RN-42, y una batería de tipo Lipo (Fig. 14). Las partes del teclado se ensamblan y se conectan a esta PCB mediante un cable jumper flexible plano de 30 pines FFC/FPC (Fig. 15). La matriz de muestreo de las PCB que se combinan con el Velostat tienen un tamaño de 2x3. Una membrana de TPU une 6 botones de tal manera que coinciden con la disposición de cada matriz de muestreo (Fig. 16). La estructura ``Castelleted'' permite conectar en fila 3 PCB para formar el teclado de 18 botones. Finalmente se programan rutinas para asignar funciones a cada una de las teclas.
+An additional PCB was developed to integrate the keyboard, the Arduino Micro development board, the SparkFun Bluetooth Mate Silver RN-42 module, and a Lipo type battery (Fig. 14). The keyboard parts are assembled and connected to this PCB via a 30-pin FFC/FPC flat flexible jumper cable (Fig. 15). The sampling matrix of the PCBs that are combined with the Velostat are 2x3 in size. A TPU membrane joins 6 buttons in such a way that they match the layout of each sampling array (Fig. 16). The ``Castellated'' structure allows 3 PCBs to be connected in a row to form the 18-button keyboard. Finally, routines are programmed to assign functions to each of the keys.
 
 Figure 14
 
@@ -145,8 +145,7 @@ Figure 16
  
 *** Joystick ***
 
-CÓDIGO FUENTE EN: XXXXXXXXX
-CÓDIGO FUENTE del Bluetooth en: XXXXXXX
+The source code is available in the Mouse_Joystick_Buttons and Bluetooth_RN42_Setup directories.
 
 Este dispositivo se puede configurar para ejecutar las funciones de un dispositivo apuntador (función de desplazamiento del puntero, clic, doble clic, o scroll). Una de las propiedades de este aparato consiste en que la forma de la palanca de mando puede variar según las características del usuario. Esta propiedad es relevante porque con ella se podrían atender las necesidades de personas con dificultades en las estructuras o funciones de los dedos, o en los músculos (debido a la fuerza, al tono, o la resistencia).
 
