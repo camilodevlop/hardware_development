@@ -42,7 +42,7 @@ Device details and some adaptation examples are available below.
 
 The source code is available in the Head_Mouse and Bluetooth_RN42_Setup directories.
 
-En las figuras 1 y 2  se ilustran las acciones de interacción que se implementaron en el dispositivo: desplazamiento del cursor y clic. Para la acción de desplazamiento se desea que el usuario relacione de manera intuitiva los movimientos de la cabeza con los movimientos del cursor (Fig. 1). El desplazamiento horizontal se obtiene a través del desplazamiento angular sobre el eje transversal de la cabeza. El movimiento vertical del cursor a partir del desplazamiento angular de la cabeza sobre su eje longitudinal. Para la acción de clic se seleccionó un movimiento que consiste en generar un cambio marcado de aceleración asintiendo con la cabeza (Fig. 2).
+Figures 1 and 2 illustrate the interaction actions that were implemented in the device: pointer movement and click. For the movement action, it is desired that the user intuitively relates the head movements with the movements of the pointer (Fig. 1). The horizontal displacement is carried out through the angular displacement on the transverse axis of the head. The vertical movement of the pointer is performed by means of the angular displacement of the head on its longitudinal axis. Finally, a movement that consists of generating a marked change of acceleration by nodding the head executes the click (Fig. 2).
 
 Figure 1
 
@@ -52,25 +52,25 @@ Figure 2
 
 ![clic](https://user-images.githubusercontent.com/116608938/231599828-8b40e5cc-463f-452c-afd0-b5610722e95a.png)
 
-Como sistema de medida del mouse se utiliza la tarjeta IMU GY-85 que posee un acelerómetro digital ADXL-345, un giroscopio ITG-3205 y un magnetómetro HMC5853L. Los sistemas se ubican sobre una diadema para que el dispositivo permanezca estable en la cabeza del usuario (Fig. 3). En el ADXL-345 las variaciones de aceleración son medidas a lo largo de los ejes x, y e z. Cuando el cambio de aceleración se produce en la dirección de los ejes se toma como positiva, en caso contrario se toma como negativa. Para la aceleración se usa como unidad de medida la fuerza g, en donde 1 g equivale a la gravedad terrestre (9,806 m/ s2 ). El ITG-3205 entrega tres medidas de la velocidad con la cual cada uno de los ejes x, y e z rotan sobre sí mismos. La velocidad se mide en grados sobre segundo (°/s) y para este caso se toman como positiva cuando los movimientos están a favor de las manecillas del reloj.
+The GY-85 IMU that has an ADXL-345 digital accelerometer, an ITG-3205 gyroscope and a HMC-5853L magnetometer is used as the mouse measurement system. The systems are placed on a headband so that the device remains stable on the user's head (Fig. 3). In the ADXL-345 the acceleration variations are measured along the x, y and z axes. When the change of acceleration occurs in the same direction of the axes, it is taken as positive, otherwise it is taken as negative. For acceleration, the g-force is used as the unit of measurement, where 1 g is equivalent to Earth's gravity (9.806 m/s2). The speed is measured in degrees per second (°/s) and in this case it is considered as positive when the movements are clockwise.
 
 Figure 3
 
 ![imumousediseno](https://user-images.githubusercontent.com/116608938/231600101-6333fb48-069d-4283-bb89-2a4ec42cfc54.png)
 
-En la figura 4 se presenta la implementación física del dispositivo: la integración de la IMU y el Arduino sobre un circuito impreso, la caja contenedora del circuito con un orificio que permite la conexión micro USB, y el dispositivo que se ubica sobre la cabeza de un usuario sin brazos.
+Figure 4 shows the physical implementation of the device: the integration of the IMU and the Arduino on a printed circuit, the box containing the circuit with a hole that allows the micro USB connection, and the device that is located on the head of a user without arms.
 
 Figure 4
 
 ![imumouse_implementacion](https://user-images.githubusercontent.com/116608938/231600456-c530d5b1-6c58-4558-b901-6ee37cef1846.png)
 
-La versión inalámbrica del IMU-Mouse es presentada en la figura 5. En esta versión son adicionados el Bluetooth RN-42 –embebido en la placa SparkFun Bluetooth Mate Silver– y una batería Lipo con salida de 3.7V y capacidad de 1100 mAh.
+The wireless version of the IMU-Mouse is presented in figure 5. In this version, the RN-42 Bluetooth –embedded in the SparkFun Bluetooth Mate Silver board– and a Lipo battery with 3.7V output and 1100 mAh capacity are added.
 
 Figure 5
 
 ![Imu_mouse_ini](https://user-images.githubusercontent.com/116608938/231603412-df2153b6-3046-49c4-bc24-03e9fcce8abe.png)
 
-La versión final del IMU-Mouse es presentada en la figura 6. En este caso la IMU GY-85 es sustituida por la SparkFun Breakout IMU MPU-9250. La tarjeta de desarrollo electrónica Arduino Pro Micro se sustituyó por la Teensy 3.2. El prototipo se montó sobre la diadema del dispositivo NeuroSky MindWave Mobile 2 la cual es más liviana y tiene un mejor ajuste.
+The final version of the IMU-Mouse is presented in figure 6. In this case, the IMU GY-85 is replaced by the SparkFun Breakout IMU MPU-9250. The Arduino Pro Micro electronic development board is replaced by the Teensy 3.2. The prototype was mounted on the NeuroSky MindWave Mobile 2 device's headband which is lighter and has a better fit.
 
 Figure 6
 
