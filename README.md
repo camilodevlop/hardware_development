@@ -159,9 +159,9 @@ Figure 17
  
  .
  
-*** Ejemplos de soluciones de interacción construidos a partir de los prototipos mencionados anteriormente ***
+*** Examples of interaction solutions built from the prototypes mentioned above ***
 
-Example 1: combinación del joystick y el teclado de 6 botones (Figs. 18 and 19). Esta combinación atiende las  necesidades de interacción de una mano metacarpiana con trasplante de dedos del pie. Por medio del joystick se mueve el puntero en la pantalla. Por medio del teclado se ejecutan el click, left click, scroll up, scroll down and Ctrl+Alt+Supr.
+Example 1: joystick and 6-button keyboard combination (Figs. 18 and 19). This combination addresses the interaction needs of a metacarpal hand with toes transplant. By means of the joystick, the pointer is moved on the screen. Using the keyboard, click, left click, scroll up, scroll down and Ctrl + Alt + Del are executed.
 
 Figure 18
 
@@ -171,7 +171,7 @@ Figure 19
 
 ![part1_it2](https://user-images.githubusercontent.com/116608938/231831990-e2647e88-026d-4ea1-b3f9-f46dd8d25a95.png)
 
-Example 2: adaptación de un dispositivo apuntador usando el joystick (Figs. 20-24). Este dispositivo atiende las  necesidades de interacción de una mano metacarpiana con trasplante de dedos del pie.
+Example 2: adaptation of a pointing device using the joystick (Figs. 20-24). This device addresses the interaction needs of a metacarpal hand with toes transplant.
 
 Figure 20
 
@@ -193,13 +193,13 @@ Figure 24
 
 ![fit2_17](https://user-images.githubusercontent.com/116608938/231891217-b498d5ff-0175-474d-80b6-67be07747bc6.png)
 
-Example 3: combinación del IMU-Mouse y el teclado de 6 botones (Fig. 25). Esta combinación atiende las  necesidades de interacción de una mano metacarpiana con trasplante de dedos del pie. Por medio del IMU-Mouse se mueve el puntero en la pantalla. Por medio del teclado se ejecutan las acciones restantes de un dispositivo apuntador.
+Example 3: IMU-Mouse and 6-button keyboard combination (Figs. 18 and 19). This combination addresses the interaction needs of a metacarpal hand with toes transplant. By means of the IMU-Mouse, the pointer is moved on the screen. The remaining actions of a pointing device are executed by means of the keyboard.
 
 Figure 25
 
 ![part1_it1](https://user-images.githubusercontent.com/116608938/231892701-bbaaf89c-193f-4222-83c5-fc785f7a7307.png)
 
-Example 4: combinación del joystick y el teclado de 6 botones. Esta combinación atiende las  necesidades de interacción de un usuario con parálisis parcial en las extremidades superiores. El usuario utiliza férulas porque no puede mover las manos. Por medio del joystick se mueve el puntero en la pantalla. Se construye un soporte para el brazo en el cual se incluye el joystick (Figs. 26 and 27). También se adapta una nueva palanca al joystick para facilitar la interacción (Fig. 28). Por medio del teclado se ejecutan el click, left click, scroll up, scroll down and Ctrl+Alt+Supr.
+Example 4: joystick and 6-button keyboard combination. This combination addresses the interaction needs of a user with partial paralysis in the upper extremities. The wearer wears splints because he cannot move his hands. By means of the joystick, the pointer is moved on the screen. A support for the arm is built in which the joystick is included (Figs. 26 and 27). A new lever is also adapted to the joystick to facilitate interaction (Fig. 28). Using the keyboard, click, left click, scroll up, scroll down and Ctrl + Alt + Del are executed.
 
 Figure 26
 
