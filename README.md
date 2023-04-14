@@ -147,9 +147,9 @@ Figure 16
 
 The source code is available in the Mouse_Joystick_Buttons and Bluetooth_RN42_Setup directories.
 
-Este dispositivo se puede configurar para ejecutar las funciones de un dispositivo apuntador (función de desplazamiento del puntero, clic, doble clic, o scroll). Una de las propiedades de este aparato consiste en que la forma de la palanca de mando puede variar según las características del usuario. Esta propiedad es relevante porque con ella se podrían atender las necesidades de personas con dificultades en las estructuras o funciones de los dedos, o en los músculos (debido a la fuerza, al tono, o la resistencia).
+This device can be configured to perform the functions of a pointing device (pointer movement function, click, double click, or scroll). One of the properties of this device is that the shape of the joystick can vary according to the characteristics of the user. This property is relevant to meet the needs of people with difficulties in the fingers or muscles due to strength, tone, or resistance. 
 
-El módulo seleccionado es el joystick Gravity V2. Este módulo tiene tres ejes -X, Y, y Z.  El eje Z incluye un botón digital que se activa si la palanca se presiona desde arriba. El joystick se conecta a la Teensy 3.2 que envía las acciones de interacción mediante el módulo Bluetooth RN-45 (Fig. 17).
+The selected module is the Gravity V2 joystick. This module has three axes -X, Y, and Z. The Z axis includes a digital button that is activated if the stick is pressed from above. The joystick is connected to the Teensy 3.2 which sends the interaction actions through the RN-45 Bluetooth module (Fig. 17).
 
 Figure 17
 
